@@ -1,10 +1,20 @@
 package br.com.daily.challenges;
 
+import java.util.Scanner;
+
+/**
+ * <a>https://dev.to/thepracticaldev/daily-challenge-1-string-peeler-4nep</a>
+ * @author Gustavo
+ * @date 2019-08-22
+ * 
+ */
 public class Daily1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Scanner scanner = new Scanner(System.in);
+        String name = scanner.nextLine();
+        System.out.println(formatString(name));
+        scanner.close();
 	}
 
 	public static String formatString(String phrase) {

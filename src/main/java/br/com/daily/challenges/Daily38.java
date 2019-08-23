@@ -2,6 +2,12 @@ package br.com.daily.challenges;
 
 import java.util.Scanner;
 
+/**
+ * <a>https://dev.to/thepracticaldev/daily-challenge-38-middle-name-45ie</a>
+ * @author Gustavo
+ * @date 2019-08-22
+ * 
+ */
 public class Daily38 {
 
 	public static void main(String[] args) {
