@@ -26,8 +26,9 @@ public class Daily47 {
 					sb.append(" ");
 				}
 			}
+			return sb.substring(0, sb.length()-1).toString();
 		}
-		return sb.substring(0, sb.length()-1).toString();
+		return null;
 	}
 
 }
